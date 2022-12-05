@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_thong_ke">
+    <fragment
+        android:id="@+id/nav_thong_ke"
+        android:name="vuplph13134.fpoly.assignment.ui.ThongKe.ThongKeFragment"
+        android:label="fragment_thong_ke"
+        tools:layout="@layout/fragment_thong_k_e" />
+    <fragment
+        android:id="@+id/nav_khoan_chi"
+        android:name="vuplph13134.fpoly.assignment.ui.KhoanChi.ChiFragment"
+        android:label="fragment_khoan_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_khoan_thu"
+        android:name="vuplph13134.fpoly.assignment.ui.KhoanThu.ThuFragment"
+        android:label="fragment_khoan_thu"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_gioi_thieu"
+        android:name="vuplph13134.fpoly.assignment.ui.GioiThieu.GioiThieuFragment"
+        android:label="fragment_gioi_thieu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="vuplph13134.fpoly.assignment.ui.ThongKe.ThongKeFragment"
+        tools:layout="@layout/fragment_thong_k_e" />
+</navigation>
